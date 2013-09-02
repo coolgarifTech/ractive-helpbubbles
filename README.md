@@ -2,6 +2,8 @@
 
 Helpful page-hints using [Ractive.js](http://www.ractivejs.org/).
 
+_By [Coolgarif Tech](http://www.coolgarif.com/brain-food/boris-board), as used in [Boris Board](http://www.borisboard.com/)_.
+
 ## So what is it?
 
 [A white-hole](https://www.youtube.com/watch?v=TxWN8AhNER0). The first time your user views the page, attach little explanatory text-labels to page elements that display one after the other, requiring a click to dismiss.
@@ -146,3 +148,8 @@ _Should_ work on all 'modern' browsers and IE8+.
 Released under the MIT License.
 
 Have at it!
+
+## Us
+
+* [@coolgarif](https://twitter.com/coolgarif)
+* [www.coolgarif.com](http://www.coolgarif.com/)
