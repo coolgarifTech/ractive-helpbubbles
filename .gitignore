@@ -10,7 +10,6 @@ _build/
 
 # dirs with compiled content
 .sass-cache/*
-css/
 cache/
 vendor/
 output/
