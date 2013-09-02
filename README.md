@@ -1,6 +1,6 @@
 # Ractive-HelpBubbles
 
-Helpful page-hints using Ractive.js.
+Helpful page-hints using [Ractive.js](http://www.ractivejs.org/).
 
 ## So what is it?
 
