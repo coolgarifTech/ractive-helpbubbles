@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>Ractive HelpBubbles</title>
+
+    <link rel="stylesheet" href="css/helpbubbles.css" type="text/css">
+    <style>
+
+      #target-el-1, #target-el-2 {
+        position: absolute;
+        padding: 50px;
+      }
+
+      #target-el-1 {
+        top:200px;
+        left:200px;
+        background: blue;
+      }
+
+      #target-el-2 {
+        top:400px;
+        left:500px;
+        background: red;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="target-el-1"><p>My Target 1</p></div>
+    <div id="target-el-2"><p>My Target 2</p></div>
+
+    <div id="helpbubble_holder"></div>
+
+
+    <script src="js/libs/Ractive.js"></script>
+    <script src="js/libs/lodash.js"></script>
+    <script src="js/helpbubbles.min.js"></script>
+    <script>
+      var bubblecious;
+
+      bubblecious = new window.HelpBubbles({
+        el: 'helpbubble_holder',
+
+        data: {
+
+          y_adjustment: 20,
+
+          bubbles: [
+                {
+                    target: 'target-el-1',
+                    content: 'Pointing at My Target 1',
+                },
+                {
+                    target: 'target-el-2',
+                    content: 'Pointing at My Target 2',
+                    onTap:   function() { console.log( 'Alt Bubble-tapped' ); }
+                }
+            ]
+
+        }
+      });
+
+    </script>
+
+  </body>
+</html>
