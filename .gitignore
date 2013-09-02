@@ -1,0 +1,23 @@
+.idea
+.svn
+.bak
+.DS_Store
+Thumbs.db
+.lock.pid
+
+# build artifacts
+_build/
+
+# dirs with compiled content
+.sass-cache/*
+css/
+cache/
+vendor/
+output/
+
+sitemap.xml
+
+# CTags
+.tags
+.tags_sorted_by_file
+.gemtags
