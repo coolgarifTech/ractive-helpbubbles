@@ -120,7 +120,7 @@ data: {
 
 ## CSS styling hooks
 
-You can style the help bubbles as you please. An example CSS styling is available in **/css/helpbubbles.css**. In pseudo-BEM style you have the following hooks for styling the bubbles:
+You can style the help bubbles as you please. An example CSS styling is available in **[/css/helpbubbles.css](https://github.com/coolgarifTech/ractive-helpbubbles/blob/master/css/helpbubbles.css)**. In pseudo-BEM style you have the following hooks for styling the bubbles:
 ```
 .help-bubble, .help-bubble--reversed {
     .help-bubble__content {}
